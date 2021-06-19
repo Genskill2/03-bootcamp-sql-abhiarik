@@ -14,7 +14,7 @@ values  ("The C Programming Language",1),
         ("Deep Work",3),
         ("Atomic Habits",4),
         ("The City and The City",5),
-        ("THE Great War for Civilisation",6);
+        ("The Great War for Civilisation",6);
 
 
 
