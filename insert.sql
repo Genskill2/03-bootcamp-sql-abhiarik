@@ -1,5 +1,5 @@
 INSERT INTO publisher(name, country)
- values ('PHI','India'),
+values ('PHI','India'),
         ('Harper','USA'),
         ('GCP','USA'),
         ('Avery','USA'),
@@ -7,14 +7,14 @@ INSERT INTO publisher(name, country)
         ('Vintage','UK');
 
 INSERT INTO books(title, publisher) 
-values  ('The C Programming Language','PHI'),
-        ('The Go Programming Language','PHI'),
-        ('The UNIX Programming Language','PHI'),
-        ('Cryptonomicon', 'Harper'),
-        ('Deep Work','GCP'),
-        ('Atomic Habits','Avery'),
-        ('The City and the City','Del Rey'),
-        ('THE Great War for Civilisation','Vintage');
+values  ('The C Programming Language',1),
+        ('The Go Programming Language',1),
+        ('The UNIX Programming Language',1),
+        ('Cryptonomicon', 2),
+        ('Deep Work',3),
+        ('Atomic Habits',4),
+        ('The City and the City',5),
+        ('THE Great War for Civilisation',6);
 
 
 
