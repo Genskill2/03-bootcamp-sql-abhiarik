@@ -1,0 +1,1 @@
+SELECT books.title,publisher.name from publisher INNER JOIN books on publisher.id=books.publisher where publisher.country="UK";
