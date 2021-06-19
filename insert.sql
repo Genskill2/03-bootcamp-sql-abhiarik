@@ -38,7 +38,7 @@ values  (1,'C'),
         (8,'History');
 
 
-INSERT INTO books_subjects(book,name,subject)
+INSERT INTO books_subjects(book,subject,name)
 values  (1,1,'C'),
         (1,1,'UNIX'),
         (1,1,'Technology'),
