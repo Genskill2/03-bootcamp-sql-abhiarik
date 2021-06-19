@@ -1,4 +1,4 @@
-INSERT INTO publisher(name,country)
+INSERT INTO publisher(name, country)
  values (PHI,India),
         (Harper,USA),
         (GCP,USA),
@@ -6,12 +6,11 @@ INSERT INTO publisher(name,country)
         (Del Rey,UK),
         (Vintage,UK);
 
-INSERT INTO books(title,publisher) 
-values
-        (The C Programming Language,PHI),
+INSERT INTO books(title, publisher) 
+values  (The C Programming Language,PHI),
         (The Go Programming Language,PHI),
         (The UNIX Programming Language,PHI),
-        (Cryptonomicon,Harper),
+        (Cryptonomicon, Harper),
         (Deep Work,GCP),
         (Atomic Habits,Avery),
         (The City and the City,Del Rey),
@@ -19,9 +18,8 @@ values
 
 
 
-INSERT INTO subjects(id,name) 
-values
-        (1,C),
+INSERT INTO subjects(id, name) 
+values  (1,C),
         (1,UNIX),
         (1,Technology),
         (2,GO),
