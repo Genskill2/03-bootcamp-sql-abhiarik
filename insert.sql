@@ -9,7 +9,7 @@ values ("PHI","India"),
 INSERT INTO books(title, publisher) 
 values  ("The C Programming Language",1),
         ("The Go Programming Language",1),
-        ("The UNIX Programming Language",1),
+        ("The UNIX Programming Environment",1),
         ("Cryptonomicon", 2),
         ("Deep Work",3),
         ("Atomic Habits",4),
