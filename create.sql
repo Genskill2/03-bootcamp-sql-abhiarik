@@ -6,4 +6,4 @@ foreign key(publisher) references publisher(id));
 CREATE TABLE subjects(id integer, name text, primary key(id, name));
 
 CREATE TABLE books_subjects(book integer, subject integer, foreign key (book) references books(id),
-foreign key(subject) references subjects(id));
+foreign key(subject) references subjects(id,name));
