@@ -30,7 +30,7 @@ values  (1,'C'),
         (4,'Science Fiction'),
         (5,'Technology'),
         (5,'Productivity'),
-        (6,'Technology'),
+        (6,'Productivity'),
         (6,'Psychology'),
         (7,'Science Fiction'),
         (7,'Politics'),
@@ -38,7 +38,7 @@ values  (1,'C'),
         (8,'History');
 
 
-INSERT INTO books_subjects
+INSERT INTO books_subjects(book,subject)
 values  (1,1),
         (2.2),
         (3,3),
