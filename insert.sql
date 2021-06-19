@@ -39,23 +39,23 @@ values  (1,'C'),
 
 
 INSERT INTO books_subjects(book,name,subject)
-values  (1,'C',1),
-        (1,'UNIX',1),
-        (1,'Technology',1),
-        (2,'GO',2),
-        (2,'Technology',2),
-        (3,'UNIX',3),
-        (3,'Technology',3),
-        (4,'Technology',4),
-        (4,'Science Fiction',4),
-        (5,'Technology',5),
-        (5,'Productivity',5),
-        (6,'Productivity',6),
-        (6,'Psychology',6),
-        (7,'Science Fiction',7),
-        (7,'Politics',7),
-        (8,'Politics',8),
-        (8,'History',8);
+values  (1,1,'C'),
+        (1,1,'UNIX'),
+        (1,1,'Technology'),
+        (2,2,'GO'),
+        (2,2,'Technology'),
+        (3,3,'UNIX'),
+        (3,3,'Technology'),
+        (4,4,'Technology'),
+        (4,4,'Science Fiction'),
+        (5,5,'Technology'),
+        (5,5,'Productivity'),
+        (6,6,'Productivity'),
+        (6,6,'Psychology'),
+        (7,7,'Science Fiction'),
+        (7,7,'Politics'),
+        (8,8,'Politics'),
+        (8,8,'History');
 
 
 
