@@ -3,7 +3,7 @@ INSERT INTO publisher(name, country)
         (Harper,USA),
         (GCP,USA),
         (Avery,USA),
-        (Del Rey,UK),
+        ('Del Rey',UK),
         (Vintage,UK);
 
 INSERT INTO books(title, publisher) 
@@ -13,7 +13,7 @@ values  (The C Programming Language,PHI),
         (Cryptonomicon, Harper),
         (Deep Work,GCP),
         (Atomic Habits,Avery),
-        (The City and the City,Del Rey),
+        (The City and the City,'Del Rey'),
         (THE Great War for Civilisation,Vintage);
 
 
